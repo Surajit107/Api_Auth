@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken')
 const config = require('../config/config')
 
 
+
 // securepassword
 const SecurePassword = async (password) => {
     try {
@@ -14,6 +15,7 @@ const SecurePassword = async (password) => {
     }
 }
 
+
 // create token
 const CreateToken = async (id) => {
     try {
@@ -23,6 +25,7 @@ const CreateToken = async (id) => {
         return res.status(400).json(err.message)
     }
 }
+
 
 // register user
 const registerUser = async (req, res) => {
@@ -48,6 +51,7 @@ const registerUser = async (req, res) => {
         return res.status(400).json(err.message)
     }
 }
+
 
 // login user
 const loginUser = async (req, res) => {
