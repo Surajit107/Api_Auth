@@ -29,6 +29,10 @@ const user = mongoose.Schema({
         type: String,
         default: ''
     },
+    status: {
+        type: Boolean,
+        default: false
+    }
 });
 
 module.exports = mongoose.model("user", user);

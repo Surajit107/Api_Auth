@@ -2,6 +2,8 @@ const UserModel = require('../model/user')
 const bcryptjs = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const config = require('../config/config')
+const crypto = require("crypto")
+const nodeMailer = require('nodemailer')
 
 
 

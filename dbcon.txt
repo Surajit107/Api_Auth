@@ -1,0 +1,2 @@
+const dbcon = "mongodb+srv://surajit:AhS5gSYyzHXrKIvd@cluster0.elcxhoa.mongodb.net/api_auth"
+OAuth Password = "cnmxypsfhvcygplf"
